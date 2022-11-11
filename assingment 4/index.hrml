@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="resume">
+<h1 style="text-align: center;">Pitam Das</h1>
+<p style="text-align:center;">Linkdin | Twitter | Github | Facebook
+</p>
+<h2>Education</h2>
+<hr>
+<ul>
+    <li>
+        <h3>Graduation</h3>
+        <p>Cacutta University</p>
+        <h3>CGPA: 6.4</h3>
+    </li>
+
+<br>
+<li>
+    <h3>Higher Secondary</h3>
+    <p>West benbal conuncil of High secondary Education</p>
+    <h3>CGPA: 6.1</h3>
+</li>
+<br>
+<li>
+    <h3>Secondary</h3>
+    <p>West benbal board of secondary Education</p>
+    <h3>CGPA: 5.1</h3>
+</li></ul>
+<br><br><br>
+
+<h2>RELEVENT COURSEWORK</h2>
+<hr>
+<p>WEB DEVELOPMENT | FIGMA | GITHUB | PHOTOSHOP</p>
+<br><br>
+<h2>TECHNICAL SKILLS</h2>
+<hr>
+<ul>
+    <li> <strong>LANGUAGE : </strong>JavaScript</li>
+    <li><strong>FRONTEND : </strong>HTML, CSS, JS</li>
+    <li><strong>BACKEND</strong> : </strong>NODE.JS</li>
+    <li><strong>DATABASE : </strong>MONGO DB</li>
+</ul>
+<br>
+<h2>PROJECT</h2>
+<hr>
+<ul>
+    <li>
+    <h3>Course sellign website</h3>
+    <p><strong>Tech:</strong> Html, CSS, JS</p>
+    <a href="https://github.com/code-pitam/responsive-home">code</a>
+</li>
+
+</ul>
+<br><br>
+<h2>Hobbies</h2>
+<hr>
+<ul><li>Playing Criket</li>
+<li>Learnign new thing</li>
+</ul>
+<br><br>
+<h2>Address</h2>
+<hr>
+<p>Near Uluberia post Office <br> Howrah, west bengal</p>
+    </div>
+</body>
+</html>
