@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    color: rgba(0, 0, 0, 0.667);
+    margin-top: 20px;
+}
+.left{
+    display: flex;
+justify-content: flex-start;
+align-items: center;
+
+
+}
+.left .logo{
+    width: 40px;
+    height: 40px;
+   margin: 10px;
+}
+.left ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.left ul li{
+    list-style: none;
+    padding: 10px;
+    font-weight: bold;
+    margin-left: 20px;
+
+   
+}
+.left ul li:hover{
+ color: blue;
+   
+}
+.right{
+    display: flex;
+    align-items: center;
+    
+}
+.chrome{
+margin: 20px;
+font-weight: bold;
+padding:10px;
+width: 200px;
+font-size: 17px;
+color:rgba(0, 0, 0, 0.667); 
+border-radius: 30px;
+border: 2px solid rgba(0, 0, 0, 0.518);
+}
+.chrome i{
+    margin: 5px;
+}
+
+.apple{
+    margin: 8px;
+    font-weight: bold;
+    padding:10px;
+    width: 200px;
+    font-size: 17px;
+    color:rgba(0, 0, 0, 0.667); 
+    border-radius: 30px;
+    border: 2px solid rgba(0, 0, 0, 0.518);
+    }
+    .apple i{
+        margin: 5px;
+    }
+
+    .chrome:hover{
+       background-color: blue;
+       color: white;
+    } 
+    .apple:hover{
+        background-color: blue;
+        color: white;
+     } 
+
+
+     .main{
+        text-align: center;
+        color:rgba(0, 0, 0, 0.667); 
+        margin: 150px 0;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center !important;
+     }
+     .heading{
+        margin:15px;
+        
+     }
+     .store{
+        font-weight: bold;
+        font-size: 60px;
+        margin-bottom: 15px;
+     }
+     .store span{
+        color: blue;
+       
+     }
+.des{
+    margin-bottom: 20px;
+}
+.main .right{
+align-items: center;
+justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+}
+.main .right .chrome:hover{
+    background-color: black;
+    color: white;
+}
+.main .right .apple:hover{
+    background-color: black;
+    color: white;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer .app{
+    margin: 20px;
+}
+footer .app span{
+     text-decoration-line: underline;
+
+
+}
+.lower{
+    display: flex;
+align-items: center;
+color: rgba(0, 0, 0, 0.696);
+}
+.lower p{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.lower p i{
+    font-size: 40px;
+    padding: 5px;
+    margin: 10px;
+}

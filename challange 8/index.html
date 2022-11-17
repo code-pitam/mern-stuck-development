@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/7217e92177.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Whatsapp</title>
+  </head>
+  <body>
+    <div class="left">
+      <div class="upper">
+        <div class="profile">
+          <div class="p-img">
+            <i class="fa-solid fa-user"></i>
+          </div>
+          <div class="p-right">
+            <i class="fa-solid fa-message"></i>
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+          </div>
+        </div>
+        <div class="notify">
+          <div class="not">
+            <i class="fa-solid fa-bell-slash"></i>
+          </div>
+          <div class="p">
+            <p class="n-t">Get Notifies of New Messages</p>
+            <p class="n-p">Turn on desktop notifications</p>
+          </div>
+        </div>
+        <div class="search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input
+            type="text"
+            name="search"
+            id="search"
+            placeholder="Search or start new Messages"
+          />
+        </div>
+      </div>
+      <div class="contacts">
+        <!-- individual contact -->
+        <div class="c-section">
+          <img
+            src="https://media-exp1.licdn.com/dms/image/C4D03AQFVTM2nhlgfzA/profile-displayphoto-shrink_400_400/0/1642169899427?e=1674086400&v=beta&t=ROxDKUEDEia0vSQZLna947wyJC2IF2QPrMTxUk5gNHs"
+            alt=""
+          />
+          <div class="text">
+            <div class="name">
+              <h3>Pitam Das</h3>
+              <p class="time">21:31</p>
+            </div>
+
+            <p class="m-text"><i class="fa-solid fa-check"></i> Why left</p>
+          </div>
+        </div>
+        <!-- individual contact -->
+        <!-- individual contact -->
+        <div class="c-section">
+          <img
+            src="https://media-exp1.licdn.com/dms/image/C4E03AQHMPb9zm2lIVA/profile-displayphoto-shrink_100_100/0/1624383495431?e=1674086400&v=beta&t=x8mrWApyWr-ccI6QYdDiUOgSTAFflE1FRB1P7rmKqTg"
+            alt=""
+          />
+          <div class="text">
+            <div class="name">
+              <h3>Anuj Kumar Sharma</h3>
+              <p class="time">22:00</p>
+            </div>
+
+            <div class="m-text recived">
+              <p><span>Nice UI</span></p>
+              <div class="n"><p>1</p></div>
+            </div>
+          </div>
+        </div>
+        <!-- individual contact -->
+        <!-- individual contact -->
+        <div class="c-section">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlogULHLxIFq6Q-1cApechpXzx29pHzkP0n-h_li_n&s"
+            alt=""
+          />
+          <div class="text">
+            <div class="name">
+              <h3>Akshoy Paul</h3>
+              <p class="time">21:31</p>
+            </div>
+
+            <div class="m-text recived">
+              <p><span> Whare are you? </span></p>
+              <div class="n"><p>5</p></div>
+            </div>
+          </div>
+        </div>
+        <!-- individual contact -->
+        <!-- individual contact -->
+        <div class="c-section">
+          <img
+            src="https://www.heloplus.com/wp-content/uploads/2022/02/full-sad-dp.jpg"
+            alt=""
+          />
+          <div class="text">
+            <div class="name">
+              <h3>BITTU</h3>
+              <p class="time">213:31</p>
+            </div>
+
+            <p class="m-text">
+              <i class="fa-solid fa-check"></i> give the link
+            </p>
+          </div>
+        </div>
+        <!-- individual contact -->
+        <!-- individual contact -->
+        <div class="c-section">
+          <img
+            src="data:image/jpeg;base64,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"
+            alt=""
+          />
+          <div class="text">
+            <div class="name">
+              <h3>Manish</h3>
+              <p class="time">13:12</p>
+            </div>
+
+            <div class="m-text recived">
+              <p><span>send this file</span></p>
+              <div class="n"><p>1</p></div>
+            </div>
+          </div>
+        </div>
+        <!-- individual contact -->
+        <!-- individual contact -->
+        <div class="c-section">
+          <img
+            src="https://blogger.googleusercontent.com/img/a/AVvXsEh1N0g7FvzIgsajR7ZTa7jpff_fB2PpTuyJUJ9BuolEmUnxzqbn3BFLsnmDhOIsfTsIIVDMNvX47ck7mRd3E6lsEEbQ4WROFX9b91fvWTCnTWFbpt6Mhfc2wIB34mlgCA-Vy1lmer0d6ybvG24Et330ELYIwofVZTyBokkFO6m1oUa4AeheOUfE2Nnl=s16000"
+            alt=""
+          />
+          <div class="text">
+            <div class="name">
+              <h3>PATICK</h3>
+              <p class="time">12:31</p>
+            </div>
+
+            <p class="m-text"><i class="fa-solid fa-check"></i>keya</p>
+          </div>
+        </div>
+        <!-- individual contact -->
+        <!-- individual contact -->
+        <div class="c-section">
+          <img
+            src="https://shayariholic.com/wp-content/uploads/2022/09/boys-whatsapp-dp-7-1024x1024.jpg"
+            alt=""
+          />
+          <div class="text">
+            <div class="name">
+              <h3>Mintu</h3>
+              <p class="time">09:31</p>
+            </div>
+
+            <p class="m-text">
+              <i class="fa-solid fa-check"></i
+              ><i class="fa-solid fa-camera"></i>image
+            </p>
+          </div>
+        </div>
+        <!-- individual contact -->
+        <!-- individual contact -->
+        <div class="c-section">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvOMz5WUsASkc5_67qB6e_uZx7YbRgjnKU0vM_O-A8U7Inas1yYZNOlSODZy8F9IqVRHw&usqp=CAU"
+            alt=""
+          />
+          <div class="text">
+            <div class="name">
+              <h3>+91 9865321452</h3>
+              <p class="time">22:00</p>
+            </div>
+
+            <div class="m-text recived">
+              <p><span>How are yoy?</span></p>
+              <div class="n"><p>1</p></div>
+            </div>
+          </div>
+        </div>
+        <!-- individual contact -->
+        <!-- individual contact -->
+        <div class="c-section">
+          <img
+            src="https://shayariholic.com/wp-content/uploads/2022/09/boys-whatsapp-dp-7-1024x1024.jpg"
+            alt=""
+          />
+          <div class="text">
+            <div class="name">
+              <h3>Kiran</h3>
+              <p class="time">21:31</p>
+            </div>
+
+            <p class="m-text">
+              <i class="fa-solid fa-check"></i> Kothai achis?
+            </p>
+          </div>
+        </div>
+        <!-- individual contact -->
+        <!-- individual contact -->
+        <div class="c-section">
+          <img
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYnyamxNBNrzrXP64XHKEFpMWtrd1tZJ6ILr8wvXDj-zU0lD280FEx1bE7EvwwKuGm9DkBYfgsOLCc7vpfc5Pxs6I0CaGE_dV521W3Yu6neVvRV6Ld7KfL5iMSKivCGfXk3rciKqbS6BKFqnCYNb-zoNubX8IlcnU3wfUWTKHx2oR3MevbeNUrL2TF/s720/Cool%20Photos%20For%20Whatsapp%20DP%20(4).jpg"
+            alt=""
+          />
+          <div class="text">
+            <div class="name">
+              <h3>Montu</h3>
+              <p class="time">21:31</p>
+            </div>
+
+            <p class="m-text"><i class="fa-solid fa-check"></i> kire jabi</p>
+          </div>
+        </div>
+        <!-- individual contact -->
+        <!-- individual contact -->
+        <div class="c-section">
+          <img
+            src="http://www.goodmorningimagesdownload.com/wp-content/uploads/2021/11/Alone-dp-for-Boy-Images-Status.jpg"
+            alt=""
+          />
+          <div class="text">
+            <div class="name">
+              <h3>amit das</h3>
+              <p class="time">21:31</p>
+            </div>
+
+            <p class="m-text"><i class="fa-solid fa-check"></i> hmm</p>
+          </div>
+        </div>
+        <!-- individual contact -->
+        <!-- individual contact -->
+        <div class="c-section">
+          <img
+            src="https://i.pinimg.com/736x/d9/10/ee/d910eeceba47caf5dc0513a2d71cdc93.jpg"
+            alt=""
+          />
+          <div class="text">
+            <div class="name">
+              <h3>Pallab</h3>
+              <p class="time">22:00</p>
+            </div>
+
+            <div class="m-text recived">
+              <p><span>na na</span></p>
+              <div class="n"><p>1</p></div>
+            </div>
+          </div>
+        </div>
+        <!-- individual contact -->
+      </div>
+    </div>
+
+    <!-- right section start here -->
+
+    <div class="right">
+      <div class="r-upper">
+        <img
+          src="https://media-exp1.licdn.com/dms/image/C4D03AQFVTM2nhlgfzA/profile-displayphoto-shrink_400_400/0/1642169899427?e=1674086400&v=beta&t=ROxDKUEDEia0vSQZLna947wyJC2IF2QPrMTxUk5gNHs"
+          alt=""
+        />
+        <div class="pro">
+          <div class="r-name">
+            <h3>Pitam Das</h3>
+            <p>last seen 10 minute ago</p>
+          </div>
+          <div class="r-set">
+            <i class="fa-solid fa-paperclip"></i>
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="main">
+        <div class="m-time">
+          <p>Today</p>
+        </div>
+        <div class="get">
+          <p>how are you</p>
+          <p class="t">11:00</p>
+        </div>
+        <div class="send">
+            <p>I am fine</p>
+            <p class="t">11:12</p>
+        </div>
+        <div class="get">
+            <p>Whare are you form?</p>
+            <p class="t">11:12</p>
+          </div>
+          <div class="send">
+              <p>I am form Kolkata</p>
+              <p class="t">11:13</p>
+          </div>
+          <div class="get">
+            <p>ok</p>
+            <p class="t">11:14</p>
+          </div>
+          <div class="send">
+              <p>Whare are you live?</p>
+              <p class="t">11:15</p>
+          </div>
+          <div class="get">
+            <p>I am form delhi</p>
+            <p class="t">11:16</p>
+          </div>
+          <div class="send">
+              <p>currently what you do?</p>
+              <p class="t">11:17</p>
+          </div>
+          <div class="get">
+            <p>I am pursing BSC. you</p>
+            <p class="t">11:18</p>
+          </div>
+          <div class="send">
+              <p>i complate my graduation <br>this year form calcutta university </p>
+              <p class="t">11:19</p>
+          </div>
+          <div class="get">
+            <p>how are you</p>
+            <p class="t">11:20</p>
+          </div>
+          <div class="send">
+              <p>i am fine</p>
+              <p class="t">11:21</p>
+          </div>
+          <div class="get">
+            <p>how are you</p>
+            <p class="t">11:22</p>
+          </div>
+          <div class="send">
+              <p>i am fine</p>
+              <p class="t">11:23</p>
+          </div>
+          <div class="get">
+            <p>how are you</p>
+            <p class="t">11:24</p>
+          </div>
+          <div class="send">
+              <p>i am fine</p>
+              <p class="t">11:25</p>
+          </div>
+      </div>
+      <div class="r-lower">
+        <i class="fa-regular fa-face-smile"></i>
+        <input type="text" name="" id="" placeholder="" />
+        <i class="fa-solid fa-microphone"></i>
+      </div>
+    </div>
+      
+    </div>
+  </body>
+</html>
