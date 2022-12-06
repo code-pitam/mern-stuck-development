@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.button{
+    width:20vw;
+    height: 20vh;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+
+}
+.button button{
+    width: 120px;
+    position: relative;
+    padding: 15px 0; 
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    border:none;
+    color: white;
+    background-color: red;
+    transition: 0.5s;
+  }
+   .button button span{
+        transition: 0.1s;
+        display: none;
+    }
+   .button button:hover{
+
+   }
+   .button button:hover span{
+    display: contents;
+   
+   }
+
+
+
+   * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .btn {
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+  }
+  .btn button {
+    position: relative;
+    width: 150px;
+  
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    transition: 1s;
+    background-color: rgba(75, 239, 162, 0.311);
+  }
+  .btn button::after {
+    position: absolute;
+    z-index: 1;
+    content: "";
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    top: 5px;
+    transition: 1s;
+    left: 9px;
+    background-color: rgba(60, 240, 165, 0.82);
+    height: 80%;
+  }
+  .btn button:hover {
+    background-color: rgba(75, 239, 162, 0.82);
+  }
+  .btn button:hover::after {
+    cursor: pointer;
+    position: absolute;
+  
+    left: 100px;
+    background-color: rgb(28, 165, 16);
+  }

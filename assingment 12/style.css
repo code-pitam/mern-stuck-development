@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  grid-gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+.container .box {
+  border-top: 10px solid rgb(255, 149, 0);
+  width: 150px;
+  height: 100px;
+  background-color: black;
+  font-size: 20px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border-bottom-left-radius: 10px 10px;
+  border-bottom-right-radius: 10px 10px;
+  transition: 0.7s ease;
+  /* animation: shake 0.7 ease 1  alternate-reverse ; */
+}
+/* .box{
+    transform: rotate(20deg);
+} */
+.container .box:hover {
+  cursor: pointer;
+  /* background-color: aquamarine;
+    transform: rotate(-20deg); */
+  animation: shake 0.5s;
+}
+/* The animation code */
+@keyframes shake {
+  0% {
+    transform: rotate(10deg);
+  }
+
+  20% {
+    transform: rotate(-10deg);
+  }
+  40% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(-10deg);
+  }
+  80% {
+    transform: rotate(10deg);
+  }
+}
+.box2 {
+  background-image: url("https://akm-img-a-in.tosshub.com/indiatoday/images/story/201704/647_040317032405.jpg?size=690:388");
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  transition: 5s;
+}
+.box2 p {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  grid-gap: 15px;
+  position: relative;
+}
+.box2 p span {
+  transition: 3s ease-in-out;
+}
+
+.box2:hover .top {
+  transition: 2s;
+  align-self: flex-start;
+}
+.box2:hover .bottom {
+  align-self: flex-end;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: gray;
+  width: 100vw;
+  position: relative;
+  height: 800px;
+}
+.container1 .box {
+  width: 500px;
+  display: flex;
+
+  aspect-ratio: 1/1;
+  background-color: rgb(153, 231, 231);
+  position: relative;
+}
+.container1 .anibox {
+  background-color: rgb(255, 255, 255);
+  width: 200px;
+  height: 150px;
+  position: absolute;
+  bottom: 20px;
+  right: 150px;
+  border-radius: 5px;
+  animation: jump 3s infinite;
+}
+@keyframes jump {
+  0% {
+    bottom: 25px;
+  }
+  10% {
+    transform: rotate(0deg);
+
+    width: 200px;
+    height: 150px;
+  }
+
+  50% {
+    transform: translateX(120%);
+    bottom: 120px;
+    width: 130px;
+    height: 130px;
+
+    transform: rotate(-360deg);
+    bottom: 200px;
+  }
+  80% {
+    transform: rotate(0deg);
+    width: 200px;
+    height: 150px;
+  }
+
+  100% {
+    bottom: 25px;
+  }
+}
+@keyframes bot {
+  0% {
+    bottom: 20px;
+  }
+
+  50% {
+    width: 200px;
+  }
+
+  100% {
+    bottom: 20px;
+  }
+}
+.anibox2 {
+  width: 300px;
+  height: 50px;
+  background-color: yellow;
+  /* position: absolute; */
+  bottom: 0;
+  align-self: flex-end;
+  justify-self: center;
+  justify-content: center;
+  justify-items: center;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 40%;
+  animation: bot 3s infinite;
+  right: 136px;
+}
+.anibox2 span {
+  width: 220px;
+  height: 10px;
+  border-radius: 25%;
+  background-color: brown;
+  position: absolute;
+  animation: tbot 3s infinite;
+}
+@keyframes tbot {
+  0% {
+  }
+
+  50% {
+    width: 140px;
+  }
+
+  100% {
+  }
+}
